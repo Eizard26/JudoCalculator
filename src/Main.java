@@ -107,7 +107,7 @@ public class Main {
                         System.out.println("Validate Input! Please enter a valid number (not a letter).");
                         sc.next();
                     }
-                } while (!validInput1 ||ath.getPrivateCoaching() > 20|| ath.getPrivateCoaching() < 0);
+                } while (!validInput1);
             }else {
                 //Get private coaching hours
                 do {
