@@ -44,7 +44,7 @@ public class Main {
                     System.out.println("Validate Input! Please enter a valid number (not a letter).");
                     sc.next(); // Clear the invalid input
                 }
-            } while (!validInput || ath.getCurrentWeight()<55);
+            } while (!validInput );
 
             //call method of displayWeightCategory
             ath.displayWeightCategory();
@@ -63,7 +63,7 @@ public class Main {
                     System.out.println("Validate Input! Please enter a valid number (not a letter).");
                     sc.next(); // Clear the invalid input
                 }
-            } while (!validInput2 || ath.getCompetitionWeight()<0 || ath.getCompetitionWeight()>6);
+            } while (!validInput2);
 
             //call method for display training plan
             ath.displayTrainingPlan();
@@ -123,7 +123,7 @@ public class Main {
                         System.out.println("Validate Input! Please enter a valid number (not a letter).");
                         sc.next();
                     }
-                } while (!validInput1 || ath.getPrivateCoaching() > 20 || ath.getPrivateCoaching() < 0);
+                } while (!validInput1);
 
             }
             //display athlete'name
