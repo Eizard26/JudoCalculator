@@ -20,7 +20,7 @@ public class Main {
         do {
             //Request athlete's name
             do {
-                System.out.print("Enter Athlete Name (letter only)    df    :");
+                System.out.print("Enter Athlete Name (letter only)        :");
                 ath.setAthleteName(sc.next());
                 if(!ath.getAthleteName().matches("[a-zA-Z]+")) {
                     System.out.println("Validate Input, Put string only.");
